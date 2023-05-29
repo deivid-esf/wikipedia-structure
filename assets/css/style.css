@@ -95,3 +95,12 @@ footer{
 .foot-content a{
   color: #000000;
 }
+
+@media screen and (width < 438px) {
+  .largura-limitada{
+    max-width: 90%;
+  }
+  .container{
+    grid-template-columns: 1fr;
+  }
+}
