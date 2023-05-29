@@ -75,9 +75,7 @@ a:visited{
 .conteudo li{
   list-style: square;
 }
-.conteudo p{
-  text-align: justify;
-}
+
 img{
   width: 100%;
 }
@@ -93,4 +91,7 @@ footer{
 
 .foot-content ul{
   margin-left: 30px;
+}
+.foot-content a{
+  color: #000000;
 }
